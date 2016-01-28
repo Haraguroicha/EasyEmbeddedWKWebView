@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B63CA4A1C59EC220056BEF7 /* EasyEmbeddedWKWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B63CA491C59EC220056BEF7 /* EasyEmbeddedWKWebView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B63CA581C59EC480056BEF7 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B63CA571C59EC480056BEF7 /* WebKit.framework */; };
+		6B63CA5A1C59EC4C0056BEF7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B63CA591C59EC4C0056BEF7 /* UIKit.framework */; };
+		6B63CA5C1C59EC520056BEF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B63CA5B1C59EC520056BEF7 /* Foundation.framework */; };
+		6B63CA5F1C59EC9C0056BEF7 /* EEWK-Inject.js in Resources */ = {isa = PBXBuildFile; fileRef = 6B63CA5E1C59EC9C0056BEF7 /* EEWK-Inject.js */; };
+		6B63CA681C59EE9E0056BEF7 /* EEWKDataFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B63CA601C59EE9E0056BEF7 /* EEWKDataFunction.h */; };
+		6B63CA691C59EE9E0056BEF7 /* EEWKDataFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B63CA611C59EE9E0056BEF7 /* EEWKDataFunction.m */; };
+		6B63CA6A1C59EE9E0056BEF7 /* EEWKWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B63CA621C59EE9E0056BEF7 /* EEWKWebView.h */; };
+		6B63CA6B1C59EE9E0056BEF7 /* EEWKWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B63CA631C59EE9E0056BEF7 /* EEWKWebView.m */; };
+		6B63CA6C1C59EE9E0056BEF7 /* EEWKWebViewProxyDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B63CA641C59EE9E0056BEF7 /* EEWKWebViewProxyDelegate.h */; };
+		6B63CA6D1C59EE9E0056BEF7 /* EEWKWebViewProxyDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B63CA651C59EE9E0056BEF7 /* EEWKWebViewProxyDelegate.m */; };
+		6B63CA6E1C59EE9E0056BEF7 /* EEWKWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B63CA661C59EE9E0056BEF7 /* EEWKWebViewController.h */; };
+		6B63CA6F1C59EE9E0056BEF7 /* EEWKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B63CA671C59EE9E0056BEF7 /* EEWKWebViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6B63CA461C59EC220056BEF7 /* EasyEmbeddedWKWebView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EasyEmbeddedWKWebView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B63CA491C59EC220056BEF7 /* EasyEmbeddedWKWebView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasyEmbeddedWKWebView.h; sourceTree = "<group>"; };
+		6B63CA4B1C59EC220056BEF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B63CA571C59EC480056BEF7 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		6B63CA591C59EC4C0056BEF7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6B63CA5B1C59EC520056BEF7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6B63CA5E1C59EC9C0056BEF7 /* EEWK-Inject.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "EEWK-Inject.js"; sourceTree = "<group>"; };
+		6B63CA601C59EE9E0056BEF7 /* EEWKDataFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EEWKDataFunction.h; sourceTree = "<group>"; };
+		6B63CA611C59EE9E0056BEF7 /* EEWKDataFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EEWKDataFunction.m; sourceTree = "<group>"; };
+		6B63CA621C59EE9E0056BEF7 /* EEWKWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EEWKWebView.h; sourceTree = "<group>"; };
+		6B63CA631C59EE9E0056BEF7 /* EEWKWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EEWKWebView.m; sourceTree = "<group>"; };
+		6B63CA641C59EE9E0056BEF7 /* EEWKWebViewProxyDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EEWKWebViewProxyDelegate.h; sourceTree = "<group>"; };
+		6B63CA651C59EE9E0056BEF7 /* EEWKWebViewProxyDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EEWKWebViewProxyDelegate.m; sourceTree = "<group>"; };
+		6B63CA661C59EE9E0056BEF7 /* EEWKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EEWKWebViewController.h; sourceTree = "<group>"; };
+		6B63CA671C59EE9E0056BEF7 /* EEWKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EEWKWebViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B63CA421C59EC220056BEF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B63CA5C1C59EC520056BEF7 /* Foundation.framework in Frameworks */,
+				6B63CA5A1C59EC4C0056BEF7 /* UIKit.framework in Frameworks */,
+				6B63CA581C59EC480056BEF7 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B63CA3C1C59EC220056BEF7 = {
+			isa = PBXGroup;
+			children = (
+				6B63CA481C59EC220056BEF7 /* EasyEmbeddedWKWebView */,
+				6B63CA5D1C59EC600056BEF7 /* Frameworks */,
+				6B63CA471C59EC220056BEF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B63CA471C59EC220056BEF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B63CA461C59EC220056BEF7 /* EasyEmbeddedWKWebView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B63CA481C59EC220056BEF7 /* EasyEmbeddedWKWebView */ = {
+			isa = PBXGroup;
+			children = (
+				6B63CA5E1C59EC9C0056BEF7 /* EEWK-Inject.js */,
+				6B63CA491C59EC220056BEF7 /* EasyEmbeddedWKWebView.h */,
+				6B63CA601C59EE9E0056BEF7 /* EEWKDataFunction.h */,
+				6B63CA611C59EE9E0056BEF7 /* EEWKDataFunction.m */,
+				6B63CA621C59EE9E0056BEF7 /* EEWKWebView.h */,
+				6B63CA631C59EE9E0056BEF7 /* EEWKWebView.m */,
+				6B63CA641C59EE9E0056BEF7 /* EEWKWebViewProxyDelegate.h */,
+				6B63CA651C59EE9E0056BEF7 /* EEWKWebViewProxyDelegate.m */,
+				6B63CA661C59EE9E0056BEF7 /* EEWKWebViewController.h */,
+				6B63CA671C59EE9E0056BEF7 /* EEWKWebViewController.m */,
+				6B63CA4B1C59EC220056BEF7 /* Info.plist */,
+			);
+			path = EasyEmbeddedWKWebView;
+			sourceTree = "<group>";
+		};
+		6B63CA5D1C59EC600056BEF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B63CA5B1C59EC520056BEF7 /* Foundation.framework */,
+				6B63CA591C59EC4C0056BEF7 /* UIKit.framework */,
+				6B63CA571C59EC480056BEF7 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6B63CA431C59EC220056BEF7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B63CA6E1C59EE9E0056BEF7 /* EEWKWebViewController.h in Headers */,
+				6B63CA4A1C59EC220056BEF7 /* EasyEmbeddedWKWebView.h in Headers */,
+				6B63CA681C59EE9E0056BEF7 /* EEWKDataFunction.h in Headers */,
+				6B63CA6A1C59EE9E0056BEF7 /* EEWKWebView.h in Headers */,
+				6B63CA6C1C59EE9E0056BEF7 /* EEWKWebViewProxyDelegate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6B63CA451C59EC220056BEF7 /* EasyEmbeddedWKWebView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B63CA4E1C59EC220056BEF7 /* Build configuration list for PBXNativeTarget "EasyEmbeddedWKWebView" */;
+			buildPhases = (
+				6B63CA411C59EC220056BEF7 /* Sources */,
+				6B63CA421C59EC220056BEF7 /* Frameworks */,
+				6B63CA431C59EC220056BEF7 /* Headers */,
+				6B63CA441C59EC220056BEF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyEmbeddedWKWebView;
+			productName = EasyEmbeddedWKWebView;
+			productReference = 6B63CA461C59EC220056BEF7 /* EasyEmbeddedWKWebView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B63CA3D1C59EC220056BEF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Haraguroicha;
+				TargetAttributes = {
+					6B63CA451C59EC220056BEF7 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 6B63CA401C59EC220056BEF7 /* Build configuration list for PBXProject "EasyEmbeddedWKWebView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6B63CA3C1C59EC220056BEF7;
+			productRefGroup = 6B63CA471C59EC220056BEF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B63CA451C59EC220056BEF7 /* EasyEmbeddedWKWebView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B63CA441C59EC220056BEF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B63CA5F1C59EC9C0056BEF7 /* EEWK-Inject.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B63CA411C59EC220056BEF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B63CA6B1C59EE9E0056BEF7 /* EEWKWebView.m in Sources */,
+				6B63CA6D1C59EE9E0056BEF7 /* EEWKWebViewProxyDelegate.m in Sources */,
+				6B63CA691C59EE9E0056BEF7 /* EEWKDataFunction.m in Sources */,
+				6B63CA6F1C59EE9E0056BEF7 /* EEWKWebViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6B63CA4C1C59EC220056BEF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6B63CA4D1C59EC220056BEF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6B63CA4F1C59EC220056BEF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"EEWK_FR_PB_ID='@\"$(PRODUCT_BUNDLE_IDENTIFIER)\"'",
+					"$(inherit)",
+				);
+				INFOPLIST_FILE = EasyEmbeddedWKWebView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = biz.hhmr.EasyEmbeddedWKWebView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6B63CA501C59EC220056BEF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"EEWK_FR_PB_ID='@\"$(PRODUCT_BUNDLE_IDENTIFIER)\"'",
+					"$(inherit)",
+				);
+				INFOPLIST_FILE = EasyEmbeddedWKWebView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = biz.hhmr.EasyEmbeddedWKWebView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B63CA401C59EC220056BEF7 /* Build configuration list for PBXProject "EasyEmbeddedWKWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B63CA4C1C59EC220056BEF7 /* Debug */,
+				6B63CA4D1C59EC220056BEF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B63CA4E1C59EC220056BEF7 /* Build configuration list for PBXNativeTarget "EasyEmbeddedWKWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B63CA4F1C59EC220056BEF7 /* Debug */,
+				6B63CA501C59EC220056BEF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B63CA3D1C59EC220056BEF7 /* Project object */;
+}

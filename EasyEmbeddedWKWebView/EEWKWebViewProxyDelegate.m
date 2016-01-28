@@ -110,4 +110,8 @@
     }
 }
 
+- (void)webViewWebContentProcessDidTerminate:(WKWebView *)webView {
+    NSLog(@"Crash on URL: %@", webView.URL);
+}
+
 @end

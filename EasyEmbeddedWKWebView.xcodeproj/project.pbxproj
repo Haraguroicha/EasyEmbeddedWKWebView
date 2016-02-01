@@ -12,13 +12,13 @@
 		6B63CA5A1C59EC4C0056BEF7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B63CA591C59EC4C0056BEF7 /* UIKit.framework */; };
 		6B63CA5C1C59EC520056BEF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B63CA5B1C59EC520056BEF7 /* Foundation.framework */; };
 		6B63CA5F1C59EC9C0056BEF7 /* EEWK-Inject.js in Resources */ = {isa = PBXBuildFile; fileRef = 6B63CA5E1C59EC9C0056BEF7 /* EEWK-Inject.js */; };
-		6B63CA681C59EE9E0056BEF7 /* EEWKDataFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B63CA601C59EE9E0056BEF7 /* EEWKDataFunction.h */; };
+		6B63CA681C59EE9E0056BEF7 /* EEWKDataFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B63CA601C59EE9E0056BEF7 /* EEWKDataFunction.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6B63CA691C59EE9E0056BEF7 /* EEWKDataFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B63CA611C59EE9E0056BEF7 /* EEWKDataFunction.m */; };
-		6B63CA6A1C59EE9E0056BEF7 /* EEWKWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B63CA621C59EE9E0056BEF7 /* EEWKWebView.h */; };
+		6B63CA6A1C59EE9E0056BEF7 /* EEWKWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B63CA621C59EE9E0056BEF7 /* EEWKWebView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6B63CA6B1C59EE9E0056BEF7 /* EEWKWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B63CA631C59EE9E0056BEF7 /* EEWKWebView.m */; };
-		6B63CA6C1C59EE9E0056BEF7 /* EEWKWebViewProxyDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B63CA641C59EE9E0056BEF7 /* EEWKWebViewProxyDelegate.h */; };
+		6B63CA6C1C59EE9E0056BEF7 /* EEWKWebViewProxyDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B63CA641C59EE9E0056BEF7 /* EEWKWebViewProxyDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6B63CA6D1C59EE9E0056BEF7 /* EEWKWebViewProxyDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B63CA651C59EE9E0056BEF7 /* EEWKWebViewProxyDelegate.m */; };
-		6B63CA6E1C59EE9E0056BEF7 /* EEWKWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B63CA661C59EE9E0056BEF7 /* EEWKWebViewController.h */; };
+		6B63CA6E1C59EE9E0056BEF7 /* EEWKWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B63CA661C59EE9E0056BEF7 /* EEWKWebViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6B63CA6F1C59EE9E0056BEF7 /* EEWKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B63CA671C59EE9E0056BEF7 /* EEWKWebViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -106,8 +106,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B63CA6E1C59EE9E0056BEF7 /* EEWKWebViewController.h in Headers */,
 				6B63CA4A1C59EC220056BEF7 /* EasyEmbeddedWKWebView.h in Headers */,
+				6B63CA6E1C59EE9E0056BEF7 /* EEWKWebViewController.h in Headers */,
 				6B63CA681C59EE9E0056BEF7 /* EEWKDataFunction.h in Headers */,
 				6B63CA6A1C59EE9E0056BEF7 /* EEWKWebView.h in Headers */,
 				6B63CA6C1C59EE9E0056BEF7 /* EEWKWebViewProxyDelegate.h in Headers */,

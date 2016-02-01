@@ -6,8 +6,8 @@
 //  Copyright (c) 2016 Haraguroicha. All rights reserved.
 //
 
-#import "EEWKWebViewProxyDelegate.h"
-#import <objc/runtime.h>
+@import ObjectiveC;
+#import <EasyEmbeddedWKWebView/EasyEmbeddedWKWebView.h>
 
 @interface EEWKWebViewProxyDelegate()
 
@@ -110,8 +110,8 @@
     }
 }
 
-- (void)webViewWebContentProcessDidTerminate:(WKWebView *)webView {
-    NSLog(@"Crash on URL: %@", webView.URL);
+- (void)webViewWebContentProcessDidTerminate:(WKWebView *)_webView {
+    NSLog(@"Crash on URL: %@", [_webView URL]);
 }
 
 @end

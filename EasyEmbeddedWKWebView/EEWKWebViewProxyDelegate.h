@@ -6,10 +6,10 @@
 //  Copyright (c) 2013 Dukeland. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-#import <WebKit/WebKit.h>
-#import "EEWKWebView.h"
-#import "EEWKDataFunction.h"
+@import Foundation;
+@import WebKit;
+
+@class EEWKWebView;
 
 @interface EEWKWebViewProxyDelegate : NSObject<WKNavigationDelegate, WKUIDelegate>
 

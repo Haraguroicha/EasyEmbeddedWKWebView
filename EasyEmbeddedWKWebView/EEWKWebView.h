@@ -6,8 +6,8 @@
 //  Copyright (c) 2016 Haraguroicha. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-#import <WebKit/WebKit.h>
+@import UIKit;
+@import WebKit;
 
 @class EEWKWebView;
 

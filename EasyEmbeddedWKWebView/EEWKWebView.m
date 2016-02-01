@@ -6,8 +6,8 @@
 //  Copyright (c) 2016 Haraguroicha. All rights reserved.
 //
 
-#import "EEWKWebView.h"
-#import "EEWKWebViewProxyDelegate.h"
+#import <EasyEmbeddedWKWebView/EEWKWebView.h>
+#import <EasyEmbeddedWKWebView/EEWKWebViewProxyDelegate.h>
 
 @interface WKWebView ()
 

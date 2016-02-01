@@ -6,8 +6,9 @@
 //  Copyright (c) 2016 Haraguroicha. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-#import "EEWKWebViewController.h"
+@import Foundation;
+
+@class EEWKWebView;
 
 @interface EEWKDataFunction : NSObject
 

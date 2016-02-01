@@ -6,7 +6,8 @@
 //  Copyright (c) 2016 Haraguroicha. All rights reserved.
 //
 
-#import "EEWKDataFunction.h"
+#import <EasyEmbeddedWKWebView/EasyEmbeddedWKWebView.h>
+#import <EasyEmbeddedWKWebView/EEWKDataFunction.h>
 
 @implementation EEWKDataFunction
 

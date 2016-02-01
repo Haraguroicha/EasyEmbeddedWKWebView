@@ -6,7 +6,8 @@
 //  Copyright (c) 2016 Haraguroicha. All rights reserved.
 //
 
-#import "EEWKWebViewController.h"
+#import <EasyEmbeddedWKWebView/EEWKWebViewController.h>
+#import <EasyEmbeddedWKWebView/EEWKWebView.h>
 
 @interface EEWKWebViewController ()
 

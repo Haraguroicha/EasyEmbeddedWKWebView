@@ -6,14 +6,10 @@
 //  Copyright (c) 2016 Haraguroicha. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-#import <WebKit/WebKit.h>
-#import "EEWKWebView.h"
+@import UIKit;
+@import WebKit;
 
-#define EEWK_JS_INJECT_FILENAME         (@"EEWK-Inject")
-#define EEWK_JS_INJECT_FUNCTIONNAME     (@"window.EmbeddedWK")
-#define EEWK_JS_INJECT_FUNCTIONTEMPLATE (@"____EmbeddedWK____")
-#define EEWK_JS_HANDLER_PATH            (@"/EEWK-Postback")
+@class EEWKWebView;
 
 @interface EEWKWebViewController : UIViewController
 
